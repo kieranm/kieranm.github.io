@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>{{ page.title }} | Kieran McHugh</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet"/>
+    <link href="https://use.typekit.net/wap5dav.css" rel="stylesheet"/>
+    <link href="/styles.css" rel="stylesheet"/>
+</head>
+<body>
+<header>
+    <div class="container mx-auto my-12 font-medium tracking-widest">
+        <h1>
+            <a href="/">KIERAN McHUGH</a>
+        </h1>
+        <nav>
+            <a href="/">Home</a>
+        </nav>
+    </div>
+</header>
+<main>
+    <div class="container mx-auto">
+        {{ content }}
+    </div>
+</main>
+
+<footer>
+    <div class="container mx-auto"></div>
+    <div id="footer-pattern"></div>
+</footer>
+</body>
+</html>

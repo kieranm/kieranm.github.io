@@ -1,0 +1,15 @@
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+collections:
+  talks:
+    output: true
+
+exclude:
+  - "*.config.js"
+  - "package*.json"
+  - "assets"
+  - "node_modules"
